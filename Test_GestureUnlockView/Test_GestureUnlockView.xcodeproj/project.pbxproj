@@ -1,0 +1,648 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EDE690AC20F332C60034E002 /* Test_GestureUnlockViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EDE690A720F332C60034E002 /* Test_GestureUnlockViewTests.m */; };
+		EDE690AD20F332C60034E002 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = EDE690A820F332C60034E002 /* Info.plist */; };
+		EDE690AE20F332C60034E002 /* Test_GestureUnlockViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = EDE690AA20F332C60034E002 /* Test_GestureUnlockViewUITests.m */; };
+		EDE690AF20F332C60034E002 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = EDE690AB20F332C60034E002 /* Info.plist */; };
+		EDE690C720F332DB0034E002 /* GestureItem.m in Sources */ = {isa = PBXBuildFile; fileRef = EDE690B620F332DB0034E002 /* GestureItem.m */; };
+		EDE690C820F332DB0034E002 /* GUManager.m in Sources */ = {isa = PBXBuildFile; fileRef = EDE690B820F332DB0034E002 /* GUManager.m */; };
+		EDE690C920F332DB0034E002 /* GUStyles.m in Sources */ = {isa = PBXBuildFile; fileRef = EDE690BA20F332DB0034E002 /* GUStyles.m */; };
+		EDE690CA20F332DB0034E002 /* GestureUnlockView.m in Sources */ = {isa = PBXBuildFile; fileRef = EDE690BB20F332DB0034E002 /* GestureUnlockView.m */; };
+		EDE690CB20F332DB0034E002 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EDE690BC20F332DB0034E002 /* Assets.xcassets */; };
+		EDE690CC20F332DB0034E002 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EDE690BD20F332DB0034E002 /* ViewController.m */; };
+		EDE690CD20F332DB0034E002 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EDE690BE20F332DB0034E002 /* LaunchScreen.storyboard */; };
+		EDE690CE20F332DB0034E002 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EDE690C020F332DB0034E002 /* Main.storyboard */; };
+		EDE690CF20F332DB0034E002 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EDE690C220F332DB0034E002 /* main.m */; };
+		EDE690D020F332DB0034E002 /* BezierPathView.m in Sources */ = {isa = PBXBuildFile; fileRef = EDE690C320F332DB0034E002 /* BezierPathView.m */; };
+		EDE690D120F332DB0034E002 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EDE690C420F332DB0034E002 /* AppDelegate.m */; };
+		EDE690D220F332DB0034E002 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = EDE690C520F332DB0034E002 /* Info.plist */; };
+		EDE690D320F334860034E002 /* Test_GestureUnlockViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EDE690A720F332C60034E002 /* Test_GestureUnlockViewTests.m */; };
+		EDE690D420F334970034E002 /* Test_GestureUnlockViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = EDE690AA20F332C60034E002 /* Test_GestureUnlockViewUITests.m */; };
+		EDE690D520F3349D0034E002 /* Info.plist in Sources */ = {isa = PBXBuildFile; fileRef = EDE690AB20F332C60034E002 /* Info.plist */; };
+		EDE690D620F334A70034E002 /* Info.plist in Sources */ = {isa = PBXBuildFile; fileRef = EDE690AB20F332C60034E002 /* Info.plist */; };
+		EDE690DC20F33A8E0034E002 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EDE690D820F336650034E002 /* XCTest.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EDE6904C20EE123C0034E002 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EDE6902B20EE123A0034E002 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EDE6903220EE123A0034E002;
+			remoteInfo = Test_bezierPath_color;
+		};
+		EDE6905720EE123C0034E002 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EDE6902B20EE123A0034E002 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EDE6903220EE123A0034E002;
+			remoteInfo = Test_bezierPath_color;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EDE6903320EE123A0034E002 /* Test_GestureUnlockView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Test_GestureUnlockView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EDE6904B20EE123C0034E002 /* Test_GestureUnlockViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Test_GestureUnlockViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EDE6905620EE123C0034E002 /* Test_GestureUnlockViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Test_GestureUnlockViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EDE690A720F332C60034E002 /* Test_GestureUnlockViewTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Test_GestureUnlockViewTests.m; sourceTree = "<group>"; };
+		EDE690A820F332C60034E002 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EDE690AA20F332C60034E002 /* Test_GestureUnlockViewUITests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Test_GestureUnlockViewUITests.m; sourceTree = "<group>"; };
+		EDE690AB20F332C60034E002 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EDE690B120F332DB0034E002 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		EDE690B220F332DB0034E002 /* BezierPathView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BezierPathView.h; sourceTree = "<group>"; };
+		EDE690B420F332DB0034E002 /* GUManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GUManager.h; sourceTree = "<group>"; };
+		EDE690B520F332DB0034E002 /* GUStyles.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GUStyles.h; sourceTree = "<group>"; };
+		EDE690B620F332DB0034E002 /* GestureItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GestureItem.m; sourceTree = "<group>"; };
+		EDE690B720F332DB0034E002 /* GestureUnlockView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GestureUnlockView.h; sourceTree = "<group>"; };
+		EDE690B820F332DB0034E002 /* GUManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GUManager.m; sourceTree = "<group>"; };
+		EDE690B920F332DB0034E002 /* GestureItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GestureItem.h; sourceTree = "<group>"; };
+		EDE690BA20F332DB0034E002 /* GUStyles.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GUStyles.m; sourceTree = "<group>"; };
+		EDE690BB20F332DB0034E002 /* GestureUnlockView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GestureUnlockView.m; sourceTree = "<group>"; };
+		EDE690BC20F332DB0034E002 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EDE690BD20F332DB0034E002 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		EDE690BF20F332DB0034E002 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EDE690C120F332DB0034E002 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EDE690C220F332DB0034E002 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EDE690C320F332DB0034E002 /* BezierPathView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BezierPathView.m; sourceTree = "<group>"; };
+		EDE690C420F332DB0034E002 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		EDE690C520F332DB0034E002 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EDE690C620F332DB0034E002 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		EDE690D820F336650034E002 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Platforms/iPhoneOS.platform/Developer/Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EDE6903020EE123A0034E002 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDE690DC20F33A8E0034E002 /* XCTest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EDE6904820EE123C0034E002 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EDE6905320EE123C0034E002 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EDE6902A20EE123A0034E002 = {
+			isa = PBXGroup;
+			children = (
+				EDE690B020F332DB0034E002 /* Test_GestureUnlockView */,
+				EDE690A620F332C60034E002 /* Test_GestureUnlockViewTests */,
+				EDE690A920F332C60034E002 /* Test_GestureUnlockViewUITests */,
+				EDE6903420EE123A0034E002 /* Products */,
+				EDE690D720F336650034E002 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		EDE6903420EE123A0034E002 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EDE6903320EE123A0034E002 /* Test_GestureUnlockView.app */,
+				EDE6904B20EE123C0034E002 /* Test_GestureUnlockViewTests.xctest */,
+				EDE6905620EE123C0034E002 /* Test_GestureUnlockViewUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EDE690A620F332C60034E002 /* Test_GestureUnlockViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				EDE690A720F332C60034E002 /* Test_GestureUnlockViewTests.m */,
+				EDE690A820F332C60034E002 /* Info.plist */,
+			);
+			path = Test_GestureUnlockViewTests;
+			sourceTree = "<group>";
+		};
+		EDE690A920F332C60034E002 /* Test_GestureUnlockViewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EDE690AA20F332C60034E002 /* Test_GestureUnlockViewUITests.m */,
+				EDE690AB20F332C60034E002 /* Info.plist */,
+			);
+			path = Test_GestureUnlockViewUITests;
+			sourceTree = "<group>";
+		};
+		EDE690B020F332DB0034E002 /* Test_GestureUnlockView */ = {
+			isa = PBXGroup;
+			children = (
+				EDE690B120F332DB0034E002 /* AppDelegate.h */,
+				EDE690B220F332DB0034E002 /* BezierPathView.h */,
+				EDE690B320F332DB0034E002 /* GestureUnlock */,
+				EDE690BC20F332DB0034E002 /* Assets.xcassets */,
+				EDE690BD20F332DB0034E002 /* ViewController.m */,
+				EDE690BE20F332DB0034E002 /* LaunchScreen.storyboard */,
+				EDE690C020F332DB0034E002 /* Main.storyboard */,
+				EDE690C220F332DB0034E002 /* main.m */,
+				EDE690C320F332DB0034E002 /* BezierPathView.m */,
+				EDE690C420F332DB0034E002 /* AppDelegate.m */,
+				EDE690C520F332DB0034E002 /* Info.plist */,
+				EDE690C620F332DB0034E002 /* ViewController.h */,
+			);
+			path = Test_GestureUnlockView;
+			sourceTree = "<group>";
+		};
+		EDE690B320F332DB0034E002 /* GestureUnlock */ = {
+			isa = PBXGroup;
+			children = (
+				EDE690B420F332DB0034E002 /* GUManager.h */,
+				EDE690B520F332DB0034E002 /* GUStyles.h */,
+				EDE690B620F332DB0034E002 /* GestureItem.m */,
+				EDE690B720F332DB0034E002 /* GestureUnlockView.h */,
+				EDE690B820F332DB0034E002 /* GUManager.m */,
+				EDE690B920F332DB0034E002 /* GestureItem.h */,
+				EDE690BA20F332DB0034E002 /* GUStyles.m */,
+				EDE690BB20F332DB0034E002 /* GestureUnlockView.m */,
+			);
+			path = GestureUnlock;
+			sourceTree = "<group>";
+		};
+		EDE690D720F336650034E002 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EDE690D820F336650034E002 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EDE6903220EE123A0034E002 /* Test_GestureUnlockView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EDE6905F20EE123C0034E002 /* Build configuration list for PBXNativeTarget "Test_GestureUnlockView" */;
+			buildPhases = (
+				EDE6902F20EE123A0034E002 /* Sources */,
+				EDE6903020EE123A0034E002 /* Frameworks */,
+				EDE6903120EE123A0034E002 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Test_GestureUnlockView;
+			productName = Test_bezierPath_color;
+			productReference = EDE6903320EE123A0034E002 /* Test_GestureUnlockView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EDE6904A20EE123C0034E002 /* Test_GestureUnlockViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EDE6906220EE123C0034E002 /* Build configuration list for PBXNativeTarget "Test_GestureUnlockViewTests" */;
+			buildPhases = (
+				EDE6904720EE123C0034E002 /* Sources */,
+				EDE6904820EE123C0034E002 /* Frameworks */,
+				EDE6904920EE123C0034E002 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EDE6904D20EE123C0034E002 /* PBXTargetDependency */,
+			);
+			name = Test_GestureUnlockViewTests;
+			productName = Test_bezierPath_colorTests;
+			productReference = EDE6904B20EE123C0034E002 /* Test_GestureUnlockViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EDE6905520EE123C0034E002 /* Test_GestureUnlockViewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EDE6906520EE123C0034E002 /* Build configuration list for PBXNativeTarget "Test_GestureUnlockViewUITests" */;
+			buildPhases = (
+				EDE6905220EE123C0034E002 /* Sources */,
+				EDE6905320EE123C0034E002 /* Frameworks */,
+				EDE6905420EE123C0034E002 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EDE6905820EE123C0034E002 /* PBXTargetDependency */,
+			);
+			name = Test_GestureUnlockViewUITests;
+			productName = Test_bezierPath_colorUITests;
+			productReference = EDE6905620EE123C0034E002 /* Test_GestureUnlockViewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EDE6902B20EE123A0034E002 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = "李东波";
+				TargetAttributes = {
+					EDE6903220EE123A0034E002 = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+					EDE6904A20EE123C0034E002 = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = EDE6903220EE123A0034E002;
+					};
+					EDE6905520EE123C0034E002 = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = EDE6903220EE123A0034E002;
+					};
+				};
+			};
+			buildConfigurationList = EDE6902E20EE123A0034E002 /* Build configuration list for PBXProject "Test_GestureUnlockView" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EDE6902A20EE123A0034E002;
+			productRefGroup = EDE6903420EE123A0034E002 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EDE6903220EE123A0034E002 /* Test_GestureUnlockView */,
+				EDE6904A20EE123C0034E002 /* Test_GestureUnlockViewTests */,
+				EDE6905520EE123C0034E002 /* Test_GestureUnlockViewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EDE6903120EE123A0034E002 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDE690AD20F332C60034E002 /* Info.plist in Resources */,
+				EDE690CE20F332DB0034E002 /* Main.storyboard in Resources */,
+				EDE690D220F332DB0034E002 /* Info.plist in Resources */,
+				EDE690CD20F332DB0034E002 /* LaunchScreen.storyboard in Resources */,
+				EDE690CB20F332DB0034E002 /* Assets.xcassets in Resources */,
+				EDE690AF20F332C60034E002 /* Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EDE6904920EE123C0034E002 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EDE6905420EE123C0034E002 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EDE6902F20EE123A0034E002 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDE690CC20F332DB0034E002 /* ViewController.m in Sources */,
+				EDE690C720F332DB0034E002 /* GestureItem.m in Sources */,
+				EDE690C820F332DB0034E002 /* GUManager.m in Sources */,
+				EDE690CA20F332DB0034E002 /* GestureUnlockView.m in Sources */,
+				EDE690D120F332DB0034E002 /* AppDelegate.m in Sources */,
+				EDE690AE20F332C60034E002 /* Test_GestureUnlockViewUITests.m in Sources */,
+				EDE690AC20F332C60034E002 /* Test_GestureUnlockViewTests.m in Sources */,
+				EDE690CF20F332DB0034E002 /* main.m in Sources */,
+				EDE690D020F332DB0034E002 /* BezierPathView.m in Sources */,
+				EDE690C920F332DB0034E002 /* GUStyles.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EDE6904720EE123C0034E002 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDE690D620F334A70034E002 /* Info.plist in Sources */,
+				EDE690D320F334860034E002 /* Test_GestureUnlockViewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EDE6905220EE123C0034E002 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDE690D520F3349D0034E002 /* Info.plist in Sources */,
+				EDE690D420F334970034E002 /* Test_GestureUnlockViewUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EDE6904D20EE123C0034E002 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EDE6903220EE123A0034E002 /* Test_GestureUnlockView */;
+			targetProxy = EDE6904C20EE123C0034E002 /* PBXContainerItemProxy */;
+		};
+		EDE6905820EE123C0034E002 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EDE6903220EE123A0034E002 /* Test_GestureUnlockView */;
+			targetProxy = EDE6905720EE123C0034E002 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EDE690BE20F332DB0034E002 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EDE690BF20F332DB0034E002 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		EDE690C020F332DB0034E002 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EDE690C120F332DB0034E002 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EDE6905D20EE123C0034E002 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		EDE6905E20EE123C0034E002 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EDE6906020EE123C0034E002 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 53GMLLVXEY;
+				FRAMEWORK_SEARCH_PATHS = "$(PLATFORM_DIR)/Developer/Library/Frameworks";
+				INFOPLIST_FILE = Test_GestureUnlockView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.zoomdu.Test_GestureUnlockView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EDE6906120EE123C0034E002 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 53GMLLVXEY;
+				FRAMEWORK_SEARCH_PATHS = "$(PLATFORM_DIR)/Developer/Library/Frameworks";
+				INFOPLIST_FILE = Test_GestureUnlockView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.zoomdu.Test_GestureUnlockView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		EDE6906320EE123C0034E002 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 53GMLLVXEY;
+				INFOPLIST_FILE = Test_GestureUnlockViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.zoomdu.Test_GestureUnlockViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Test_GestureUnlockView.app/Test_GestureUnlockView";
+			};
+			name = Debug;
+		};
+		EDE6906420EE123C0034E002 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 53GMLLVXEY;
+				INFOPLIST_FILE = Test_GestureUnlockViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.zoomdu.Test_GestureUnlockViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Test_GestureUnlockView.app/Test_GestureUnlockView";
+			};
+			name = Release;
+		};
+		EDE6906620EE123C0034E002 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 53GMLLVXEY;
+				INFOPLIST_FILE = Test_GestureUnlockViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.zoomdu.Test_GestureUnlockViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Test_GestureUnlockView;
+			};
+			name = Debug;
+		};
+		EDE6906720EE123C0034E002 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 53GMLLVXEY;
+				INFOPLIST_FILE = Test_GestureUnlockViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.zoomdu.Test_GestureUnlockViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Test_GestureUnlockView;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EDE6902E20EE123A0034E002 /* Build configuration list for PBXProject "Test_GestureUnlockView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EDE6905D20EE123C0034E002 /* Debug */,
+				EDE6905E20EE123C0034E002 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EDE6905F20EE123C0034E002 /* Build configuration list for PBXNativeTarget "Test_GestureUnlockView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EDE6906020EE123C0034E002 /* Debug */,
+				EDE6906120EE123C0034E002 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EDE6906220EE123C0034E002 /* Build configuration list for PBXNativeTarget "Test_GestureUnlockViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EDE6906320EE123C0034E002 /* Debug */,
+				EDE6906420EE123C0034E002 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EDE6906520EE123C0034E002 /* Build configuration list for PBXNativeTarget "Test_GestureUnlockViewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EDE6906620EE123C0034E002 /* Debug */,
+				EDE6906720EE123C0034E002 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EDE6902B20EE123A0034E002 /* Project object */;
+}
