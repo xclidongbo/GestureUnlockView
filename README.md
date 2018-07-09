@@ -2,7 +2,7 @@
 手势解锁
 
 
-
+[![](http://img.shields.io/travis/xclidongbo/GestureUnlockView.svg?branch=master)](https://travis-ci.org/xclidongbo/GestureUnlockView)
 
 
 
